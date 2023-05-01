@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Safe</title>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/mobiscroll.jquery.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/flatpickr.min.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/ie.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/dark.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/css/main.css">
+</head>
+
+<body>
+    <h2 class="title">حساب فرق التوقيت</h2>
+    <div class="text-center mt-3">
+        <img class="logo" src="./assets/schedule.png" alt="">
+    </div>
+    <div class="container">
+        <h6 id="current-time" class="time text-center mt-4"></h6>
+        <div class="text-center mt-3">
+            <input id="dvr-time" class="input" placeholder="Dvr Live Time" />
+            <div id="hide">
+                <div id="dvr-diff" class="dvr-time-differnce fw-bold  mt-3">
+                    <div class="row">
+                        <div class="col">
+                            <div class="time-type">قبل / بعد</div>
+                            <div id="af-bf" class="time-dif"></div>
+                        </div>
+                        <div class="col">
+                            <div class="time-type">يوم</div>
+                            <div id="day" class="time-dif"></div>
+                        </div>
+                        <div class="col">
+                            <div class="time-type">ساعة</div>
+                            <div id="hr" class="time-dif"></div>
+                        </div>
+                        <div class="col">
+                            <div class="time-type">دقائق</div>
+                            <div id="min" class="time-dif"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col">
+                        <div class="dvr-time-result">
+                            <input id="dif-time" class="input mt-3" placeholder="حساب فرق التوقيت" />
+                            <h4 id="res-dif-time" class="fw-bold"></h4>
+                        </div>
+
+
+                    </div>
+                    <div class="col">
+                        <div class="dvr-time-result">
+                            <input id="current-date" class="input mt-3" placeholder="حساب الوقت الحالي" />
+                            <h4 id="res-current-date" class="fw-bold"></h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/jquery.min.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/bootstrap.min.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/moment.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/flatpickr.min.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/ar.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/mobiscroll.jquery.min.js"></script>
+    <script src="https://raw.githubusercontent.com/JS-Developer-HM/JS-Developer-HM.github.io/main/js/main.js"></script>
+</body>
+
+</html>
